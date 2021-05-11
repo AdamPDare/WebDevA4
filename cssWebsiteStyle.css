@@ -35,7 +35,7 @@
     font-family: 'Garamond', serif;
     font-size: 32px;
     font-weight: 200;
-    padding-right: 410px;
+    padding-right: 200px;
 }
 .text-container h1 span{
     font-weight: 800;
@@ -62,5 +62,31 @@
     text-decoration: none;
     color:white ;
 }
+
+.nav{
+    padding-top: 15px;
+    background: #272727;
+    
+    
+}
+.nav-item{
+    font-family: 'Garamond',serif;
+    
+}
+.nav-link{
+    color: #FF652F;
+    border-right: #FF652F;
+}
+ul.nav  a:hover{
+    color: #14A76C;
+}
+.nav-item a:hover{
+    background-color: #747474;
+}
+.nav-link a:hover{
+    text-decoration: none;
+    background-color: #747474;
+}
+
 
 
