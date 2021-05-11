@@ -72,7 +72,8 @@
     text-align: center;
     padding-top: 15px;
     background: #272727;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    
     
 }
 .nav-item{
@@ -80,11 +81,11 @@
     
 }
 .nav-link{
-    color: #FF652F;
+    color: #FFE400;
     border-right: #FF652F;
 }
 ul.nav  a:hover{
-    color: #14A76C;
+    color: #FF652F;
 }
 .nav-item a:hover{
     background-color: #747474;
@@ -94,5 +95,17 @@ ul.nav  a:hover{
     background-color: #747474;
 }
 
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    border: 5px solid #FF652F;
+}
+
+.carousel-slide{
+    display:flex;
+    width: 100%;
+    height: 500px;
+}
 
 
