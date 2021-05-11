@@ -63,7 +63,13 @@
     color:white ;
 }
 
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
 .nav{
+    text-align: center;
     padding-top: 15px;
     background: #272727;
     padding-bottom: 15px;
