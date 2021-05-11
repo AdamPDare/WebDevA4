@@ -64,9 +64,7 @@
     .header{
         width: 100%;
     }
-    .inner-header{
-        width: 100%;
-    }
+    
 }
 @media screen and (max-width: 1100px){
     .header{
@@ -74,6 +72,26 @@
     }
     .text-container{
         padding-right: 100px;
+    }  
+
+}
+@media screen and (max-width: 700px){
+    .header{
+        width: 100%;
+    }
+    .text-container{
+        padding-right: 10px;
+        font-size: 20px;
+    }  
+
+}
+@media screen and (max-width: 500px){
+    .header{
+        width: 100%;
+    }
+    .text-container{
+        padding-right: 5px;
+        font-size: 5px;
     }  
 
 }
