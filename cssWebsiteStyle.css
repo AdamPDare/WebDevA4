@@ -40,11 +40,16 @@
 .text-container h1 span{
     font-weight: 800;
 }
+.bgcolour{
+    background: #272727;
+    
 
+}
 .nav-item{
     font-family: 'Garamond',serif;
     font-size: 20px;
     padding-right: 10px;
+    color:#FF652F ;
 }
 .fa {
     text-align: center;
@@ -96,7 +101,7 @@
     }  
 
 }
-@media screen and (max-width: 500px){
+@media screen and (min-width: 500px){
     .header{
         width: 100%;
     }
