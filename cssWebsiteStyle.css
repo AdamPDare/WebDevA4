@@ -40,17 +40,7 @@
 .text-container h1 span{
     font-weight: 800;
 }
-.bgcolour{
-    background: #272727;
-    
 
-}
-.nav-item{
-    font-family: 'Garamond',serif;
-    font-size: 20px;
-    padding-right: 10px;
-    color:#FF652F ;
-}
 .fa {
     text-align: center;
     text-decoration: none;
@@ -73,45 +63,4 @@
     color:white ;
 }
 
-@media screen and (max-width: 12000px) {
-    .header{
-        width: 100%;
-    }
-    
-}
-@media screen and (max-width: 1100px){
-    .header{
-        width: 100%;
-    }
-    .text-container{
-        padding-right: 100px;
-    }  
 
-}
-@media screen and (max-width: 700px){
-    .header{
-        width: 100%;
-    }
-    .inner-header{
-        width: 700px;
-    }
-    .text-container{
-        padding-right: 10px;
-        font-size: 20px;
-    }  
-
-}
-@media screen and (min-width: 500px){
-    .header{
-        width: 100%;
-    }
-    .inner-header{
-        width: 500px;
-    }
-
-    .text-container{
-        padding-right: 5px;
-        font-size: 5px;
-    }  
-
-}
