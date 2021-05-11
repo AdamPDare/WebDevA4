@@ -13,7 +13,6 @@
     
 }
 
-
 .inner-header{
     width: 1000px;
     height: 100%;
@@ -42,7 +41,11 @@
     font-weight: 800;
 }
 
-
+.nav-item{
+    font-family: 'Garamond',serif;
+    font-size: 20px;
+    padding-right: 10px;
+}
 .fa {
     text-align: center;
     text-decoration: none;
