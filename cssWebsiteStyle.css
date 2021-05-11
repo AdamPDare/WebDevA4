@@ -16,7 +16,7 @@
     height: 100%;
     display: block;
     margin: 0 auto;
-    background-color:#272727   ;
+    background-color:#272727  ;
 }
 .logo-container{
     height: 100%;
@@ -32,37 +32,30 @@
     font-family: 'Garamond', serif;
     font-size: 32px;
     font-weight: 200;
+    padding-right: 410px;
 }
 .text-container h1 span{
     font-weight: 800;
 }
 
-
-.logo{
-    max-width: 100%;
-    max-height: 100%;
-    padding: 10px;
-    float: leftm ;
-}
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.image{
-    flex-basis: 70%;
-    order: 1;
-}
-#wrapper{
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #272727;
-    padding: 32px;
+.fa {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
-
-.textCenter{
-    text-align: left;
-    padding-left: 20px;
-    font: 10px "Fira Sans", serif;
+  
+.fa:hover {
+    color: #FF652F;
+    text-decoration: none;
+}
+  
+.fa-facebook {
+    vertical-align: bottom;
+    padding-top: 55px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    text-decoration: none;
+    color:white ;
 }
