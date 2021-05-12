@@ -221,6 +221,9 @@ ul.nav  a:hover{
         float: left;
         
     }
+    .container-lg my-3, .carousel, .carousel-inner, .carousel-item{
+        display:none;
+    }
     .text-container, .text-container h1 span{
         font-size: 25px;
         font-weight: 100;
@@ -234,18 +237,13 @@ ul.nav  a:hover{
         padding-left: 20px;
         
     }
+    .footer{
+        width: 300px;
+    }
     
 
 
     
 }
-@media screen and(max-width:1000px) {
-    #curtain{
-        overflow: hidden;
-    }
-    .nav{
-        display: block;
-    }
-    
-}
+
 
