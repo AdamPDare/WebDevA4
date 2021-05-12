@@ -62,7 +62,7 @@ body{
     text-decoration: none;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    
+    border-bottom: 10px;
     padding-left: 5px;
     text-decoration: none;
     color:white ;
@@ -70,7 +70,7 @@ body{
 
   
 .fa:hover {
-    color: #FF652F;
+    color: #272727;
     text-decoration: none;
 }
   
@@ -109,7 +109,7 @@ body{
 
 
 ul.nav  a:hover{
-    color: #FF652F;
+    color: #272727;
 }
 .nav-item a:hover{
     background-color: #747474;
