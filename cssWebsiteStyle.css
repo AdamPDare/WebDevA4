@@ -12,8 +12,8 @@ body{
     font-family: 'Garamond',serif;
     color: #FFE400;
     size: 60px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .header{
     width: 100%;
@@ -70,6 +70,16 @@ body{
     padding-left: 5px;
     text-decoration: none;
     
+}
+.earphoneIcon{
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
+.earphoneIcon:hover{
+    color: #FF652F;
+    text-decoration: none;
 }
 
   
