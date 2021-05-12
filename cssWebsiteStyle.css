@@ -71,13 +71,13 @@ body{
     text-decoration: none;
     
 }
-.earphoneIcon{
+.glyphicon{
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     color: white;
 }
-.earphoneIcon:hover{
+.glyphicon:hover{
     color: #FF652F;
     text-decoration: none;
 }
