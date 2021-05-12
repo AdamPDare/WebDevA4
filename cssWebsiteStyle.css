@@ -95,11 +95,7 @@ body{
     text-decoration: none;
 }
 
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
+
 .nav{
     text-align: center;
     padding-top: 18px;
@@ -109,16 +105,17 @@ body{
     margin-left: 90px;
     margin-top: 10px;
     width: 750px;
-    
+    height: 100%; 
     
 }
 .nav-item{
     font-family: 'Garamond',serif;
-    
 }
 .nav-link{
     color: #FFE400;
-    border-right: #FF652F;
+    height: 100%;
+    display: table;
+    padding: 0px 20px;
 }
 
 
