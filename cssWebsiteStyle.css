@@ -239,3 +239,13 @@ ul.nav  a:hover{
 
     
 }
+@media screen and(max-width:1000px) {
+    #curtain{
+        overflow: hidden;
+    }
+    .nav{
+        display: block;
+    }
+    
+}
+
