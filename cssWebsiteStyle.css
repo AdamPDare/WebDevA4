@@ -5,6 +5,9 @@
     list-style: none;
     text-decoration: none; 
 }
+body{
+    background-image: url('backgroundImage.jpg');
+}
 .homePageText{
     font-family: 'Garamond',serif;
     color: #14A76C;
