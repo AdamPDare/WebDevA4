@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;
+    box-sizing: border-box; 
 }
 body{
     background-image: url('backgroundImage.jpg');
@@ -133,6 +134,7 @@ ul.nav  a:hover{
 
 
 
+
 .carousel{
     background: #272727;
     margin-top: 20px;
@@ -171,3 +173,46 @@ ul.nav  a:hover{
 }
 
 
+@media screen and (max-width: 300px) {
+    .card{
+        width: 300px;
+        margin:0;
+    }
+    .header{
+        width: 300px;
+        margin-left: 0px;
+    }
+    .inner-header{
+        width:300px;
+        margin-left: 0px;   
+        margin-top: 0px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .logo-container{
+        height: 000px;
+        width: 100px;
+        margin-left: 0px;
+        padding-left: 0;
+        float: left;
+        
+    }
+    .text-container, .text-container h1 span{
+        font-size: 25px;
+        font-weight: 100;
+        width: 100px;
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-left: 10px;
+        padding-right: 70px;
+    }
+    .fa, .glyphicon{
+        padding-left: 20px;
+        
+    }
+    
+
+
+    
+}
