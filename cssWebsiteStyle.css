@@ -5,6 +5,13 @@
     list-style: none;
     text-decoration: none; 
 }
+.homePageText{
+    font-family: 'Garamond',serif;
+    color: #14A76C;
+    size: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .header{
     width: 100%;
     height: 80px;
@@ -104,9 +111,17 @@ ul.nav  a:hover{
 .carousel{
     background: #272727;
     margin-top: 20px;
-    height: 400px;
-    width: 500px;
+    height: 405px;
+    width: 800px;
     margin: auto;
+    border-style: solid;
+}
+.container-lg my-3{
+    border-style: solid;
+    border-top: #FFE400;
+    border-left: #FFE400;
+    border-bottom: #FFE400;
+    border-right: #FFE400;
 }
 .carousel-item{
     text-align: center;
@@ -120,3 +135,4 @@ ul.nav  a:hover{
     margin: auto;
     
 }
+
