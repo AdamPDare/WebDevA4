@@ -156,3 +156,45 @@ ul.nav  a:hover{
     margin: auto;
     
 }
+@media screen and (max-width:12000px){
+    .card{
+        width: 1000px;
+    }
+    .footer{
+        width: 1000px;
+    }
+}
+@media screen and (max-width:1000px){
+    .card{
+        width: 100%;
+    }
+    .container-lg my-3{
+        width: 800px
+    }
+    .footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px){
+    .card{
+        width: 100%;
+    }
+    .header, .inner-header{
+        width: 100%;
+    }
+    .text-container{
+        font-size: 16px;
+        font-weight: 400;
+        padding-right: 20px;
+    }
+    .nav{
+        width: 100%;
+    }
+    .container-lg my-3{
+        width: 400px;
+        height: 200px;
+    }
+    .footer{
+        width: 100%;
+    }
+}
