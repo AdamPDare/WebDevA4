@@ -45,7 +45,7 @@ body{
     font-family: 'Garamond', serif;
     font-size: 32px;
     font-weight: 200;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 .text-container h1 span{
     font-weight: 800;
@@ -55,6 +55,17 @@ body{
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+}
+.fa fa-envelope{
+    vertical-align: bottom;
+    padding-top: 55px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+    padding-left: 5px;
+    text-decoration: none;
+    color:white ;
 }
 
   
@@ -68,7 +79,6 @@ body{
     padding-top: 55px;
     text-decoration: none;
     padding-bottom: 10px;
-    padding-right: 5px;
     text-decoration: none;
     color:white ;
 }
