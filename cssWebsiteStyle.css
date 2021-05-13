@@ -351,6 +351,36 @@ ul.nav  a:hover{
 
     
 }
-.memberClass{
+.memberText{
+    font-family: 'Garamond',serif;
+    color: #FFE400;
+    size: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    z-index: 5;
     float: left;
+}
+
+.leftcolumn{
+    float:left;
+    width: 50%;
+   
+    background-color: var(--main-bg-color);
+    
+}
+
+.rightcolumn{
+    float: left;
+    width: 50%;
+    background-color: var(--main-bg-color);
+    padding-left: 20px;
+    padding-right: 100px; 
+    padding-top: 25px;   
+}
+
+.row::after{
+    content: "";
+    padding: 20px;
+    display: table;
+    clear: both;
 }
