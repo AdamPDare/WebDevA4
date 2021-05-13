@@ -73,6 +73,32 @@
                     
                 </li>
             </ul>
+            <div id="CurtainNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="#">Memberships</a>
+                    <a href="#">Fixtures</a>
+                    <a href="#">Juniors</a>
+                    <a href="#">History</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Restringing Services</a>
+                    
+                </div>
+                
+            </div>
+            <div class="icon">
+                <span style="font-size:30px;color:#FFE400;cursor:pointer" onclick="openNav()">&#9776; Navigation</span>
+            </div>
+            
+            <script>
+                function openNav(){
+                    document.getElementById("CurtainNav").style.height="100%";
+                }
+                function closeNav() {
+                    document.getElementById("CurtainNav").style.height = "0%";
+                }
+            </script>
             
 
             <div class="container-lg my-3">
