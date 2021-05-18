@@ -107,7 +107,7 @@
     <body>
         <div class="card">
             <div class="container">
-                <form name="memberForm" action="memberships.html"  method="post">
+                <form name="memberForm" action="memberships.html" method="post">
                     <h2 style="color: white;">Membership form</h2>
                     <h3 style="color: white;">Personal Details</h3>
                     <label for="fname">First Name</label>
@@ -150,7 +150,7 @@
     
                     
     
-                    <input type="submit" value="submit" onclick="alert('Your application will be processed and you will be informed whether it is successful. We will be in touch')">
+                    <input type="submit" value="submit" onclick="checkForm()" >
                     <button id="return" onclick="goBack()">Return</button>
                 </form>
                 
@@ -167,15 +167,13 @@
             function goBack(){
                 window.history.back();
             }
-            function numberValidation(){
-                var x, numberLength;
-
-                x = document.getElementById("phoneNumber").value;
-                numberLength = x.length;
-
-
+            function checkForm(){
+                var x = document.forms["memberForm"].value;
+                if(x != null){
+                    alert('Your application will be processed and you will be informed whether it is successful. We will be in');
+                }
             }
-           
+            
         </script>
         
 
