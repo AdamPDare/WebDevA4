@@ -168,9 +168,43 @@
                 window.history.back();
             }
             function checkForm(){
-                var x = document.forms["memberForm"].value;
-                if(x != null){
-                    alert('Your application will be processed and you will be informed whether it is successful. We will be in');
+                var fn=false;
+                var ln=false;
+                var gen=false;
+                var em=false;
+                var tp=false;
+                var mem=false;
+                var agree=false;
+
+                var firstname = document.forms["firstname"].value;
+                if(firstname != null){
+                   fn=true;
+                   var lastname=document.forms["lastname"].value;
+                   if(lastname!=null){
+                       ln=true;
+                       var gender=document.forms["genders"].value;
+                       if(gender!=null){
+                           gen=true;
+                           var email=document.forms["emailAddress"].value;
+                           if(email!=null){
+                               em=true;
+                               var member=document.forms["membership"].value;
+                               if(member!=null){
+                                   mem=true;
+                                   var termsC=document.forms["terms"].value;
+                                   if(terms!=null){
+                                       agree=true;
+                                   }
+                               }
+                           }
+                       }
+                   }
+                }
+                else{
+                    alert('The form is incomplete');
+                }
+                if(((((((fn==true)&&(ln==true)&&(gen==true)&&(em==true)&&(tp==true)&&(mem==true)&&(agree==true))))))){
+                    alert('Your membership request has been submitted. You will be notified if it is sucessful');
                 }
             }
             
