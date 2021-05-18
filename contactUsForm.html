@@ -59,6 +59,19 @@
             .card{
                 background-color: #272727;
             }
+            #return{
+                background-color: #272727;
+                color: #14A76C;
+                border: 2px solid #14A76C;
+                padding: 12px 20px;
+                border-radius: 4px;
+                margin-left: 25px;
+                cursor: pointer;
+            }
+            #return:hover{
+                background-color: #14A76C;
+                color: #272727;
+            }
         </style>
     </head>
     <body>
@@ -78,7 +91,9 @@
                     <textarea id="subject" name="subject" placeholder="Enter your Query" style="height: 200px;"></textarea>
     
                     <input type="submit" value="submit" onclick="alert('Thankyou for your submission. We will be in touch')">
+                    <button id="return" onclick="goBack()">Return</button>
                 </form>
+                
             </div>
 
         </div>
@@ -88,6 +103,9 @@
                 if(confirm("Thank you for your submission. We will be in touch")){
                     txt
                 }
+            }
+            function goBack(){
+                window.history.back();
             }
         </script>
         
