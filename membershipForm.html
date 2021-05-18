@@ -79,6 +79,29 @@
             #terms{
                 margin-bottom: 20px;
             }
+            div {
+                margin-bottom: 10px;
+                position: relative;
+            }
+            input[type="number"] {
+                width: 100px;
+            }
+            input + span {
+                padding-right: 30px;
+            }
+            input:invalid+span:after {
+                position: absolute; content: '✖';
+                padding-left: 5px;
+                color: #8b0000;
+            }
+
+            input:valid+span:after {
+                position: absolute;
+                content: '✓';
+                padding-left: 5px;
+                color: #009000;
+            }
+
         </style>
     </head>
     <body>
@@ -107,9 +130,12 @@
                     <label for="email">Email Address:</label>
                     <input type="text" id="email" name="emailAddress" placeholder="Enter your Email Address" required>
 
-
-                    <label for="phoneNumber">Phone Number:</label>
-                    <input type="tel" id="phoneNumber" name="pNumber" placeholder="1234-567-892" size="20" minlength="9" maxlength="14"required>
+                    <div>
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" type="number" id="phoneNumber" name="pNumber" placeholder="1234-567-892" size="20" minlength="9" maxlength="14"required>
+                        <span class="validity"></span>
+                    </div>
+                   
 
                     <h3 style="color: white;">Membership type</h3>
                     <label for="memberType">Type of Memberships</label>
