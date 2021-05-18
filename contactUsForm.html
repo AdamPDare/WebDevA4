@@ -22,11 +22,12 @@
             }
             *{
                 box-sizing: border-box;
+                
             }
             input[type=text],select,textarea{
                 width: 100%;
                 padding: 12px;
-                border: 1px solid #ccc;
+                border: 1px solid rgb(252, 235, 235);
                 border-radius: 4px;
                 box-sizing: border-box;
                 margin-top: 6px;
@@ -34,29 +35,36 @@
                 resize: vertical;
             }
             input[type=submit]{
-                background-color: #04AA6D;
-                color: white;
+                background-color: #272727;
+                color: #14A76C;
                 padding: 12px 20px;
-                border: none;
+                border: 2px solid #14A76C;
                 border-radius: 4px;
                 cursor: pointer;
 
             }
             input[type=submit]:hover{
-                background-color: #45a049;
+                background-color: #14A76C;
+                color: #272727;
             }
             .container{
                 border-radius: 5px;
-                background-color: #f2f2f2;
+                background-color: #272727;
                 padding: 20px;
                 
+            }
+            label{
+                color: white;
+            }
+            .card{
+                background-color: #272727;
             }
         </style>
     </head>
     <body>
         <div class="card">
             <div class="container">
-                <form action="actionPage.php">
+                <form action="index.html">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name">
     
@@ -69,11 +77,19 @@
                     <label for="subject">Query:</label>
                     <textarea id="subject" name="subject" placeholder="Enter your Query" style="height: 200px;"></textarea>
     
-                    <input type="submit" value="submit">
+                    <input type="submit" value="submit" onclick="alert('Thankyou for your submission. We will be in touch')">
                 </form>
             </div>
 
         </div>
+        <script>
+            function popup(){
+                var txt;
+                if(confirm("Thank you for your submission. We will be in touch")){
+                    txt
+                }
+            }
+        </script>
         
 
     </body>
